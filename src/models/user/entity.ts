@@ -8,9 +8,8 @@ export enum UserRole {
 export enum UserEvent {
   CREATION = 'CREATION',
   ACCEPTANCE = 'ACCEPTANCE',
-  REFUSAL = 'REFUSLA'
+  REFUSAL = 'REFUSAL'
 }
-
 @Entity("users")
 export default class User extends BaseEntity {
   @PrimaryColumn()
